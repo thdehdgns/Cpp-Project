@@ -1,9 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ehdgn\\OneDrive\\Desktop\\Program\\",
+  "WorkspaceRootPath": "C:\\Users\\ehdgn\\OneDrive\\Desktop\\Cpp-Project\\Program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D609DAE2-40F0-43E4-AB99-DDF30782D60F}|Program.vcxproj|C:\\Users\\ehdgn\\OneDrive\\Desktop\\Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{A29B3502-6D59-41B9-AAB8-5954714E9276}|..\\Class 1th\\Class 1th.vcxproj|C:\\Users\\ehdgn\\OneDrive\\Desktop\\Cpp-Project\\Class 1th\\Class 1th.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D609DAE2-40F0-43E4-AB99-DDF30782D60F}|Program.vcxproj|C:\\Users\\ehdgn\\OneDrive\\Desktop\\Cpp-Project\\Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D609DAE2-40F0-43E4-AB99-DDF30782D60F}|Program.vcxproj|solutionrelative:Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -19,12 +22,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Class 1th.cpp",
+              "DocumentMoniker": "C:\\Users\\ehdgn\\OneDrive\\Desktop\\Cpp-Project\\Class 1th\\Class 1th.cpp",
+              "RelativeDocumentMoniker": "..\\Class 1th\\Class 1th.cpp",
+              "ToolTip": "C:\\Users\\ehdgn\\OneDrive\\Desktop\\Cpp-Project\\Class 1th\\Class 1th.cpp*",
+              "RelativeToolTip": "..\\Class 1th\\Class 1th.cpp*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-14T09:05:39.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cpp",
-              "DocumentMoniker": "C:\\Users\\ehdgn\\OneDrive\\Desktop\\Program\\Program.cpp",
+              "DocumentMoniker": "C:\\Users\\ehdgn\\OneDrive\\Desktop\\Cpp-Project\\Program\\Program.cpp",
               "RelativeDocumentMoniker": "Program.cpp",
-              "ToolTip": "C:\\Users\\ehdgn\\OneDrive\\Desktop\\Program\\Program.cpp*",
-              "RelativeToolTip": "Program.cpp*",
-              "ViewState": "AgIAADAAAAAAAAAAAAAjwEsAAAAPAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\ehdgn\\OneDrive\\Desktop\\Cpp-Project\\Program\\Program.cpp",
+              "RelativeToolTip": "Program.cpp",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEsAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-13T09:07:23.792Z",
               "EditorCaption": ""

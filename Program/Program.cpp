@@ -50,30 +50,30 @@ int main()
     // 프로그램을 실행 중에 필요한 만큼 메모리를
     // 할당하는 작업입니다.
     
-   int* p = new int;
-   
-   *p = 100;
-   std::cout << p << std::endl;
-   std::cout << *p << std::endl;
-
-   delete p;
-   p = nullptr;// 포인터를 해제후 접근했을 때 에러방지.
-
-    p = new int[4];
-    for (int i = 0; i < 3; i++)
-    {
-        p[i] = (i + 1) * 10;
-        std::cout << "p["<< i <<"]"<< "의 값 : " << p[i] << std::endl;
-
-    }
-    for (int i = 0; i < 3; i++)
-    {
-        std::cout << "p의 주소:" << p << std::endl;
-        
-
-    }
-
-    delete[] p;
+   // int* p = new int;
+   // 
+   // *p = 100;
+   // std::cout << p << std::endl;
+   // std::cout << *p << std::endl;
+   // 
+   // delete p;
+   // p = nullptr;// 포인터를 해제후 접근했을 때 에러방지.
+   // 
+   //  p = new int[4];
+   //  for (int i = 0; i < 3; i++)
+   //  {
+   //      p[i] = (i + 1) * 10;
+   //      std::cout << "p["<< i <<"]"<< "의 값 : " << p[i] << std::endl;
+   // 
+   //  }
+   //  for (int i = 0; i < 3; i++)
+   //  {
+   //      std::cout << "p의 주소:" << p << std::endl;
+   //      
+   // 
+   //  }
+   // 
+   //  delete[] p;
    
   
 
