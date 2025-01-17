@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\ehdgn\\OneDrive\\Desktop\\Cpp-Project\\Program\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{31A5CA67-971C-4D36-87BB-625F236C6A74}|..\\Class 4th(Shallow Copy \u0026 Deep Copy)\\Class 4th(Shallow Copy \u0026 Deep Copy).vcxproj|C:\\Users\\ehdgn\\OneDrive\\Desktop\\Cpp-Project\\Class 4th(Shallow Copy \u0026 Deep Copy)\\Class 4th(Shallow Copy \u0026 Deep Copy).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3FB3C6DA-DCE8-4A8E-98ED-D79A1086FB15}|..\\Class3 th (Constructor \u0026 Destructor)\\Class3 th (Constructor \u0026 Destructor).vcxproj|C:\\Users\\ehdgn\\OneDrive\\Desktop\\Cpp-Project\\Class3 th (Constructor \u0026 Destructor)\\Class3 th (Constructor \u0026 Destructor).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
@@ -28,19 +31,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Class 4th(Shallow Copy \u0026 Deep Copy).cpp",
+              "DocumentMoniker": "C:\\Users\\ehdgn\\OneDrive\\Desktop\\Cpp-Project\\Class 4th(Shallow Copy \u0026 Deep Copy)\\Class 4th(Shallow Copy \u0026 Deep Copy).cpp",
+              "RelativeDocumentMoniker": "..\\Class 4th(Shallow Copy \u0026 Deep Copy)\\Class 4th(Shallow Copy \u0026 Deep Copy).cpp",
+              "ToolTip": "C:\\Users\\ehdgn\\OneDrive\\Desktop\\Cpp-Project\\Class 4th(Shallow Copy \u0026 Deep Copy)\\Class 4th(Shallow Copy \u0026 Deep Copy).cpp",
+              "RelativeToolTip": "..\\Class 4th(Shallow Copy \u0026 Deep Copy)\\Class 4th(Shallow Copy \u0026 Deep Copy).cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-17T09:40:19.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Class3 th (Constructor \u0026 Destructor).cpp",
               "DocumentMoniker": "C:\\Users\\ehdgn\\OneDrive\\Desktop\\Cpp-Project\\Class3 th (Constructor \u0026 Destructor)\\Class3 th (Constructor \u0026 Destructor).cpp",
               "RelativeDocumentMoniker": "..\\Class3 th (Constructor \u0026 Destructor)\\Class3 th (Constructor \u0026 Destructor).cpp",
               "ToolTip": "C:\\Users\\ehdgn\\OneDrive\\Desktop\\Cpp-Project\\Class3 th (Constructor \u0026 Destructor)\\Class3 th (Constructor \u0026 Destructor).cpp",
               "RelativeToolTip": "..\\Class3 th (Constructor \u0026 Destructor)\\Class3 th (Constructor \u0026 Destructor).cpp",
-              "ViewState": "AgIAACgAAAAAAAAAAAAIwE4AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAHIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-15T10:37:40.136Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Class 2th(Class).cpp",
               "DocumentMoniker": "C:\\Users\\ehdgn\\OneDrive\\Desktop\\Cpp-Project\\Class 2th(Class)\\Class 2th(Class).cpp",
               "RelativeDocumentMoniker": "..\\Class 2th(Class)\\Class 2th(Class).cpp",
@@ -48,12 +64,11 @@
               "RelativeToolTip": "..\\Class 2th(Class)\\Class 2th(Class).cpp",
               "ViewState": "AgIAADMAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-15T09:04:38.886Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T09:04:38.886Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Class 1th.cpp",
               "DocumentMoniker": "C:\\Users\\ehdgn\\OneDrive\\Desktop\\Cpp-Project\\Class 1th\\Class 1th.cpp",
               "RelativeDocumentMoniker": "..\\Class 1th\\Class 1th.cpp",
@@ -65,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cpp",
               "DocumentMoniker": "C:\\Users\\ehdgn\\OneDrive\\Desktop\\Cpp-Project\\Program\\Program.cpp",
               "RelativeDocumentMoniker": "Program.cpp",
