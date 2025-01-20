@@ -1,6 +1,12 @@
 ﻿#include <iostream>
 using namespace std;
+void Stats(string Name, int atc, int def, int hel)
+{
+    cout << Name << "의 공격력: " << atc << endl;
+    cout << Name << "의 체력: " << def << endl;
+    cout << Name << "의 방어력: " << hel << endl;
 
+}
 class Terran
 {
 protected:
@@ -13,13 +19,16 @@ public:
     }
 };
 
+
 class Marine : public Terran
 {
 private:
-    int attack =59;
+    int attack =6;
 public:
     Marine()
     {
+        health = 40;
+        defense = 0;
         cout << "Created Marine" << endl;
 
     }
@@ -35,7 +44,75 @@ public:
     {
         return attack;
     }
+    void stat()
+    {
+
+        Stats("마린", attack, defense, health);
+    }
 };
+
+class Firebat : public Terran
+{
+private:
+    int attack = 16;
+public:
+    Firebat()
+    {
+        health = 50;
+        defense = 1;
+        cout << "Created Firebat" << endl;
+
+    }
+    int Health()
+    {
+        return health;
+    }
+    int Defense()
+    {
+        return defense;
+    }
+    int Attack()
+    {
+        return attack;
+    }
+
+    void stat()
+    {
+        Stats("파이어벳", attack, defense, health);
+
+    }
+};
+
+class Ghost : public Terran
+{
+private:
+    int attack = 10;
+public:
+    Ghost()
+    {
+        health = 45;
+        defense = 0;
+        cout << "Created Ghost" << endl;
+    }
+    int Health()
+    {
+        return health;
+    }
+    int Defense()
+    {
+        return defense;
+    }
+    int Attack()
+    {
+        return attack;
+    }
+    void stat()
+    {
+
+        Stats("고스트", attack, defense, health);
+    }
+};
+
 
 
 int main()
@@ -53,10 +130,20 @@ int main()
     Terran terran;
 
     Marine marine;
-    
-    cout << "마린의 체력: " << marine.Health() << endl;
-    cout << "마린의 공격력: " << marine.Attack() << endl;
-    cout << "마린의 방어력: " << marine.Defense() << endl;
+
+    Firebat firebat;
+
+    Ghost ghost;
+
+    marine.stat();
+    firebat.stat();
+    ghost.stat();
+
+    cout << "Terran 객체의 메모리 크기 : " << sizeof(Terran) << endl;
+    cout << "Marine 객체의 메모리 크기 : " << sizeof(Marine) << endl;
+    cout << "Firebat 객체의 메모리 크기 : " << sizeof(Firebat) << endl;
+    cout << "Ghost 객체의 메모리 크기 : " << sizeof(Ghost) << endl;
+
 
     // 클래스의 상속 관계에서 상위 클래스는 하위 클래스의 
     // 속성을 사용 할 수 없으며, 하위 클래스는 상위 클래스의 
