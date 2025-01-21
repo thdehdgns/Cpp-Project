@@ -44,16 +44,38 @@ public:
     }
 };
 
+void Coordinate(int x, int y)
+{
+    cout << x << ", " << y << endl;
+    
+}
+void Coordinate(float x, float y)
+{
+    cout << x << ", " << y << endl;
+
+}
+void Coordinate(int x, int y, int z)
+{
+    cout << x << ", " << y <<", "<< z << endl;
+}
+
+void Coordinate(float x, float y, float z)
+{
+    cout << x << ", " << y << ", " << z << endl;
+}
+
+
 int main()
 {
 
 #pragma region 다형성
     //여러 개의  서로 다른 객체가 동일한 기능을 서로
     // 다른 방법으로 처리할 수 있는 작업입니다.
-
+    Weapon weapon;
     Knife knife;
     Kunkles kunkles;
 
+    weapon.Attack();
     knife.Attack();
     kunkles.Attack();
 
@@ -61,6 +83,21 @@ int main()
     // 정적 바인딩을 하지 않고, 실행 시간에 함수와 속성이
     // 결정될 수 있는 동적 바인딩을 가능하게 합니다.
 
+#pragma endregion
+
+#pragma region 함수의 오버로딩
+    // 같은 이름의 함수를 매개 변수의 자료형과 매개변수의
+    // 수로 구분하여 여러개를 선언할 수 있는기능입니다.
+
+    Coordinate(5, 5);
+    Coordinate(5, 3,4);
+    Coordinate(3.2f, 2.3f);
+    Coordinate(5.2f, 3.3f, 4.4f);
+
+
+    // 함수의 오버로딩의 경우 함수의 매개 변수에 전달하는
+    // 인수의 형태를 보고 호출하므로, 반환형으로 함수의
+    // 오버로딩을 생성할 수 없습니다.
 #pragma endregion
 
 

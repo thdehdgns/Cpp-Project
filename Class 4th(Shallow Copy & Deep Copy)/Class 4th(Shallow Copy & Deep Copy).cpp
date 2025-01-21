@@ -7,20 +7,20 @@ void Stats(string Name, int atc, int def, int hel)
     cout << Name << "의 방어력: " << hel << endl;
 
 }
-class Terran
+class Unit
 {
 protected:
     int health = 100;
     int defense= 30;
 public:
-    Terran()
+    Unit()
     {
         cout << "Created Terran" << endl;
     }
 };
 
 
-class Marine : public Terran
+class Marine : public Unit
 {
 private:
     int attack =6;
@@ -51,7 +51,7 @@ public:
     }
 };
 
-class Firebat : public Terran
+class Firebat : public Unit
 {
 private:
     int attack = 16;
@@ -83,7 +83,7 @@ public:
     }
 };
 
-class Ghost : public Terran
+class Ghost : public Unit
 {
 private:
     int attack = 10;
@@ -127,7 +127,7 @@ int main()
 #pragma region 상속
     // 상위 클래스의 속성을 하위 클래스가 사용할 수 있도록
     // 설정해주는 기능입니다.
-    Terran terran;
+    Unit unit;
 
     Marine marine;
 
@@ -139,7 +139,7 @@ int main()
     firebat.stat();
     ghost.stat();
 
-    cout << "Terran 객체의 메모리 크기 : " << sizeof(Terran) << endl;
+    cout << "Unit 객체의 메모리 크기 : " << sizeof(Unit) << endl;
     cout << "Marine 객체의 메모리 크기 : " << sizeof(Marine) << endl;
     cout << "Firebat 객체의 메모리 크기 : " << sizeof(Firebat) << endl;
     cout << "Ghost 객체의 메모리 크기 : " << sizeof(Ghost) << endl;
