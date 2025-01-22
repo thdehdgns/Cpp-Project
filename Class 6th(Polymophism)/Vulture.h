@@ -1,8 +1,9 @@
 #pragma once
 #include "Terran.h"
-class Vulture
+class Vulture : public Terran
 {
 public:
 	Vulture();
+	void Stats();
 };
 

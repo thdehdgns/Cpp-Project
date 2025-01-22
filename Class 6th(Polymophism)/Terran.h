@@ -1,13 +1,14 @@
 #pragma once
+#include <iostream>
+using namespace std;
 class Terran
 {
 protected:
-	int Atk;
-	int Dp;
-	int Hp;
+	int attack;
+	int defance;
+	int health;
 public:
 	Terran();
-
-
+	void Stats();
 };
 

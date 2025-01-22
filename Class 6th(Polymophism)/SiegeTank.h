@@ -4,5 +4,7 @@ class SiegeTank :  public Terran
 {
 public:
 	SiegeTank();
+	void Stats(bool ground);
+	void Attack(bool ground);
 };
 
