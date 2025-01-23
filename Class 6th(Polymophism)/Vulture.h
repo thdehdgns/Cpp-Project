@@ -4,6 +4,6 @@ class Vulture : public Terran
 {
 public:
 	Vulture();
-	void Stats();
+	void Stats() override;
 };
 

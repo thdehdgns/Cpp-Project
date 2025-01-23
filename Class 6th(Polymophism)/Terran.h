@@ -9,6 +9,6 @@ protected:
 	int health;
 public:
 	Terran();
-	void Stats();
+	virtual void Stats();
 };
 

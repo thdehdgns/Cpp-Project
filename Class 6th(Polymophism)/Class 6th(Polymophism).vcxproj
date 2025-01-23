@@ -128,16 +128,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Class 6th(Polymophism).cpp" />
-    <ClCompile Include="Golliath.cpp" />
-    <ClCompile Include="SiegeTank.cpp" />
-    <ClCompile Include="Terran.cpp" />
-    <ClCompile Include="Vulture.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Golliath.h" />
-    <ClInclude Include="SiegeTank.h" />
-    <ClInclude Include="Terran.h" />
-    <ClInclude Include="Vulture.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

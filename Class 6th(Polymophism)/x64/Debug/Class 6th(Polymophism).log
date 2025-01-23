@@ -1,2 +1,6 @@
 ﻿  Class 6th(Polymophism).cpp
-  Class 6th(Polymophism).vcxproj -> C:\Users\ehdgn\OneDrive\Desktop\Cpp-Project\Program\x64\Debug\Class 6th(Polymophism).exe
+Class 6th(Polymophism).obj : error LNK2019: "public: __cdecl Terran::Terran(void)" (??0Terran@@QEAA@XZ)main 함수에서 참조되는 확인할 수 없는 외부 기호
+Class 6th(Polymophism).obj : error LNK2019: "public: __cdecl Vulture::Vulture(void)" (??0Vulture@@QEAA@XZ)main 함수에서 참조되는 확인할 수 없는 외부 기호
+Class 6th(Polymophism).obj : error LNK2019: "public: __cdecl SiegeTank::SiegeTank(void)" (??0SiegeTank@@QEAA@XZ)main 함수에서 참조되는 확인할 수 없는 외부 기호
+Class 6th(Polymophism).obj : error LNK2019: "public: __cdecl Golliath::Golliath(void)" (??0Golliath@@QEAA@XZ)main 함수에서 참조되는 확인할 수 없는 외부 기호
+C:\Users\ehdgn\OneDrive\Desktop\Cpp-Project\Program\x64\Debug\Class 6th(Polymophism).exe : fatal error LNK1120: 4개의 확인할 수 없는 외부 참조입니다.

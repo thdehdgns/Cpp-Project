@@ -4,6 +4,6 @@ class Golliath : public Terran
 {
 public:
 	Golliath();
-	void Stats();
+	void Stats() override;
 };
 
