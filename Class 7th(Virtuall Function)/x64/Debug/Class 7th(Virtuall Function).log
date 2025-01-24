@@ -1,7 +1,7 @@
-﻿  Golliath.cpp
-  SiegeTank.cpp
-  Terran.cpp
-  Vulture.cpp
+﻿  Brush.cpp
   Class 7th(Virtuall Function).cpp
+C:\Users\ehdgn\OneDrive\Desktop\Cpp-Project\Class 7th(Virtuall Function)\Class 7th(Virtuall Function).cpp(3,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+  Paint.cpp
+  Pencil.cpp
   코드를 생성하고 있습니다...
   Class 7th(Virtuall Function).vcxproj -> C:\Users\ehdgn\OneDrive\Desktop\Cpp-Project\Program\x64\Debug\Class 7th(Virtuall Function).exe

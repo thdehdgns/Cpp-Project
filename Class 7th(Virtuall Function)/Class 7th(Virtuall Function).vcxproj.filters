@@ -18,30 +18,24 @@
     <ClCompile Include="Class 7th(Virtuall Function).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\Class 6th(Polymophism)\Golliath.cpp">
+    <ClCompile Include="Paint.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\Class 6th(Polymophism)\SiegeTank.cpp">
+    <ClCompile Include="Brush.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\Class 6th(Polymophism)\Terran.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Class 6th(Polymophism)\Vulture.cpp">
+    <ClCompile Include="Pencil.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Class 6th(Polymophism)\Golliath.h">
+    <ClInclude Include="Paint.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="..\Class 6th(Polymophism)\SiegeTank.h">
+    <ClInclude Include="Brush.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="..\Class 6th(Polymophism)\Terran.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Class 6th(Polymophism)\Vulture.h">
+    <ClInclude Include="Pencil.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

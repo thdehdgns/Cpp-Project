@@ -127,17 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\Class 6th(Polymophism)\Golliath.cpp" />
-    <ClCompile Include="..\Class 6th(Polymophism)\SiegeTank.cpp" />
-    <ClCompile Include="..\Class 6th(Polymophism)\Terran.cpp" />
-    <ClCompile Include="..\Class 6th(Polymophism)\Vulture.cpp" />
+    <ClCompile Include="Brush.cpp" />
     <ClCompile Include="Class 7th(Virtuall Function).cpp" />
+    <ClCompile Include="Paint.cpp" />
+    <ClCompile Include="Pencil.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Class 6th(Polymophism)\Golliath.h" />
-    <ClInclude Include="..\Class 6th(Polymophism)\SiegeTank.h" />
-    <ClInclude Include="..\Class 6th(Polymophism)\Terran.h" />
-    <ClInclude Include="..\Class 6th(Polymophism)\Vulture.h" />
+    <ClInclude Include="Brush.h" />
+    <ClInclude Include="Paint.h" />
+    <ClInclude Include="Pencil.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
