@@ -30,12 +30,6 @@
     <ClCompile Include="Vulture.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Fruit.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Banana.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Golliath.h">
@@ -48,12 +42,6 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Vulture.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Fruit.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Banana.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

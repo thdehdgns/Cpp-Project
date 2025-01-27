@@ -127,17 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Banana.cpp" />
     <ClCompile Include="Class 6th(Polymophism).cpp" />
-    <ClCompile Include="Fruit.cpp" />
     <ClCompile Include="Golliath.cpp" />
     <ClCompile Include="SiegeTank.cpp" />
     <ClCompile Include="Terran.cpp" />
     <ClCompile Include="Vulture.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Banana.h" />
-    <ClInclude Include="Fruit.h" />
     <ClInclude Include="Golliath.h" />
     <ClInclude Include="SiegeTank.h" />
     <ClInclude Include="Terran.h" />
