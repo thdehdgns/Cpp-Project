@@ -9,7 +9,17 @@ private:
 	int y = 0;
 public:
 	Vector2 operator + (const Vector2& clone) const;
+	Vector2 operator * (const Vector2& clone) const;
+	Vector2 operator / (const Vector2& clone) const;
 	
+	Vector2 &operator++();
+	Vector2 &operator--();
+	
+	Vector2 operator++(int);
+	Vector2 operator--(int);
+
+
+	Vector2(int x, int y);
 	Vector2();
 	void Direction(int x, int y);
 

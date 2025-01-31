@@ -8,10 +8,25 @@ int main()
      
     Vector2 direction1;
     Vector2 direction2;
-    direction1.Direction(2, 4);
-    direction2.Direction(3, 6);
+    Vector2 direction;
+    direction1.Direction(10, 9);
+    direction2.Direction(5, 3);
 
-    
+    direction = direction1 + direction2;
+    cout <<"(" << direction.X() << "," << direction.Y() <<")" << endl;
+    direction = direction1 * direction2;
+    cout << "(" << direction.X() << "," << direction.Y() << ")" << endl;
+    direction = direction1 / direction2;
+    cout << "(" << direction.X() << "," << direction.Y() << ")" << endl;
+    ++direction;
+    cout << "(" << direction.X() << "," << direction.Y() << ")" << endl;
+    --direction;
+    cout << "(" << direction.X() << "," << direction.Y() << ")" << endl;
+    direction++;
+    cout << "(" << direction.X() << "," << direction.Y() << ")" << endl;
+    direction--;
+    cout << "(" << direction.X() << "," << direction.Y() << ")" << endl;
+
 #pragma endregion
 
 
