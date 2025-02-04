@@ -7,11 +7,12 @@ bool Same(T a, T b)
 {
 	return a == b;
 }
-template <typename T>
-bool Same(string a, string b)
+
+template <>
+bool Same<string>(string a, string b)
 {
+	cout << "template Specialization" << endl;
 	return a.length() == b.length();
-	
 }
 int main()
 {
@@ -46,7 +47,8 @@ int main()
 	cout << Same(1, 2) << endl;
 	cout << Same('A', 'B') << endl;
 	cout << Same('A', 'A') << endl;
-	cout << Same("aaa", "bbb") << endl;
+	cout << Same(string("abc"), string("bbb")) << endl;
+	
 
 #pragma endregion
 
