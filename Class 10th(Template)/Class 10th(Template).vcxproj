@@ -127,11 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Character.cpp" />
     <ClCompile Include="Class 10th(Template).cpp" />
     <ClCompile Include="Packet.cpp" />
     <ClCompile Include="Resource.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Character.h" />
     <ClInclude Include="Packet.h" />
     <ClInclude Include="Resource.h" />
   </ItemGroup>
