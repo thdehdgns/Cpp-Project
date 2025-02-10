@@ -1,22 +1,42 @@
 ﻿#include <iostream>
 #include <stack>
+#include <queue>
 using namespace std;
 int main()
 {
 
-    stack<int> stack;
+#pragma region Stack
+    // stack<int> stack;
+    // 
+    // stack.push(10);
+    // stack.push(20);
+    // stack.push(30);
+    // 
+    // cout << "Stack : " << stack.size() << endl;
+    // 
+    // while (stack.empty() == false)
+    // {
+    //     cout << stack.top() << endl;
+    //     stack.pop();
+    // }
+#pragma endregion
 
-    stack.push(10);
-    stack.push(20);
-    stack.push(30);
+#pragma region Queue
+    queue<int> queue;
 
-    cout << "Stack : " << stack.size() << endl;
+    queue.push(10);
+    queue.push(20);
+    queue.push(30);
+    queue.push(40);
+    queue.push(50);
 
-    while (stack.empty() == false)
+    while (queue.empty() == false)
     {
-        cout << stack.top() << endl;
-        stack.pop();
+        cout << queue.front() << endl;
+        queue.pop();
     }
+#pragma endregion
+
 
 
     return 0;

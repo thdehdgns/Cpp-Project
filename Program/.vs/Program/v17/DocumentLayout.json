@@ -1,52 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ehdgn\\OneDrive\\Desktop\\Cpp-Project\\Program\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A98B19A3-80B8-469A-9930-81FFB7035961}|..\\Class 13th (Linear container)\\Class 13th (Linear container).vcxproj|C:\\Users\\ehdgn\\OneDrive\\Desktop\\Cpp-Project\\Class 13th (Linear container)\\Class 13th (Linear container).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{580EFC6A-FC65-40ED-AA2C-E374B6F42D80}|..\\Class 12th(Thread)\\Class 12th(Thread).vcxproj|C:\\Users\\ehdgn\\OneDrive\\Desktop\\Cpp-Project\\Class 12th(Thread)\\Class 12th(Thread).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Class 13th (Linear container).cpp",
-              "DocumentMoniker": "C:\\Users\\ehdgn\\OneDrive\\Desktop\\Cpp-Project\\Class 13th (Linear container)\\Class 13th (Linear container).cpp",
-              "RelativeDocumentMoniker": "..\\Class 13th (Linear container)\\Class 13th (Linear container).cpp",
-              "ToolTip": "C:\\Users\\ehdgn\\OneDrive\\Desktop\\Cpp-Project\\Class 13th (Linear container)\\Class 13th (Linear container).cpp",
-              "RelativeToolTip": "..\\Class 13th (Linear container)\\Class 13th (Linear container).cpp",
-              "ViewState": "AgIAAAUAAAAAAAAAAADwvxkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-07T10:09:27.789Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Class 12th(Thread).cpp",
-              "DocumentMoniker": "C:\\Users\\ehdgn\\OneDrive\\Desktop\\Cpp-Project\\Class 12th(Thread)\\Class 12th(Thread).cpp",
-              "RelativeDocumentMoniker": "..\\Class 12th(Thread)\\Class 12th(Thread).cpp",
-              "ToolTip": "C:\\Users\\ehdgn\\OneDrive\\Desktop\\Cpp-Project\\Class 12th(Thread)\\Class 12th(Thread).cpp",
-              "RelativeToolTip": "..\\Class 12th(Thread)\\Class 12th(Thread).cpp",
-              "ViewState": "AgIAABkAAAAAAAAAAAAowC8AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-06T09:23:40.905Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
